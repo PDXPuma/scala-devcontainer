@@ -1,0 +1,15 @@
+{
+    "name": "Ubuntu",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "app",
+    "workspaceFolder": "/workspace",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "scala-lang.scala",
+                "scalameta.metals",
+                "hbenl.vscode-test-explorer"
+            ]
+        }
+    }
+ }
